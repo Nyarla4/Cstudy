@@ -1,0 +1,8 @@
+﻿  퇴근문제.cpp
+c:\users\b409_13\documents\github\suhkhwankim\c학술회\170928\2부\consoleapplication2\퇴근문제.cpp(36): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\b409_13\documents\github\suhkhwankim\c학술회\170928\2부\consoleapplication2\퇴근문제.cpp(23): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1270): note: 'scanf' 선언을 참조하십시오.
+c:\users\b409_13\documents\github\suhkhwankim\c학술회\170928\2부\consoleapplication2\퇴근문제.cpp(30): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1270): note: 'scanf' 선언을 참조하십시오.
+  ConsoleApplication2.vcxproj -> C:\Users\B409_13\Documents\GitHub\SuhkhwanKim\C학술회\170928\2부\Debug\ConsoleApplication2.exe
+  ConsoleApplication2.vcxproj -> C:\Users\B409_13\Documents\GitHub\SuhkhwanKim\C학술회\170928\2부\Debug\ConsoleApplication2.pdb (Full PDB)
