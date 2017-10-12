@@ -16,14 +16,11 @@ void change1(char *a)//NULL까지로해서 전체를 역순으로 정렬
 void change2(char*a,int*b)//' '까지로해서 역순으로 정렬
 {
 	char c[N];
-	for (; a[*b] != NULL; b++)
+	for (; a[*b] != ' '; b++)
 	{
-		for (int i = 0; a[i] != ' '; i++)
-		{
-			c[(N - 1) - i] = *(a + i);
-		}
+		c[(N - 1) - *b] = *(a + *b);
 	}
-	for (int i = 0; a[i] != NULL; i++)
+	for (int i = 0; a[i] != ' '; i++)
 	{
 		*(a + i) = c[i];
 	}
@@ -35,10 +32,14 @@ int main()
 	int b = 0;
 	int*q = &b;
 	change1(p);
-	//change2(p,q);
+	for (;p[*q]!=NULL;)
+	{
+		change2(p,q);
+	}
 	for (int i=0;a[i]!=NULL;i++)
 	{
 		printf("%c", *(a + i));
 	}
+	printf("\n");
 	return 0;
 }
