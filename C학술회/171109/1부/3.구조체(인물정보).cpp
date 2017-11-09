@@ -25,5 +25,4 @@ void main()
 	strcpy(P[2].name, "ÀÌÁØÇü");
 	strcpy(P[2].phoneNum, "010-4455-6244");
 	P[2].age = 24;
-
 }
